@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Caveat:wght@700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Medico</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex">
+      <a href="#" class="header__logo flex"><img src="./images/logo.svg"> Medico</a>
+      <nav class="nav">
+        <button class="nav__toggle"><span class="hamburger"></span></button>
+
+        <ul class="nav__list">
+          <li class="nav__item active"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#set-appointment" class="nav__link">Set appointment</a></li>
+          <li class="nav__item"><a href="#order-medications" class="nav__link">Order medications</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <h1 class="hero__title">Health and time are the two most valuable things</h1>
+        <p class="hero__description">Medico application gives you access to the complete health system in just a few
+          clicks!
+          Join thousands of our satisfied clients and never again worry about ordering your medicine or getting medical
+          help.</p>
+        <button class="btn">Set Appointment</button>
+        <button class="btn btn--outline">Download App</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h1 class="section-title">Services</h1>
+      <div class="card-grid">
+        <div class="card">
+          <img src="./images/emergency_icon.svg" alt="emergency icon" class="card__icon">
+          <h3 class="card__title">Emergency Call</h3>
+          <p class="card__description">We all react differently in emergency situations and sometimes forgot phone
+            number and because of that our app has built in emergency call system</p>
+          <a href="#" class="card__link">Learn more</a>
+        </div>
+        <div class="card">
+          <img src="./images/mobile_icon.svg" alt="mobile icon" class="card__icon">
+          <h3 class="card__title">Online Consultation</h3>
+          <p class="card__description">With our app you can set appointment for online consultation with our
+            specialists through video or regular call without wasting time waiting in hospital</p>
+          <a href="#" class="card__link">Learn more</a>
+        </div>
+        <div class="card">
+          <img src="./images/pills_icon.svg" alt="pills icon" class="card__icon">
+          <h3 class="card__title">Order Medications</h3>
+          <p class="card__description">Going to the doctors office is, as we all know can be stressful and time
+            consuming so we enabled ordering medications through our app easy and simple</p>
+          <a href="#" class="card__link">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h1 class="section-title">About</h1>
+      <p class="about__text">Medico platform has been created to make life easier for both doctors and patients. It has
+        never been easier and faster to get medical help, medications and everything else connected to the health. </p>
+      <p class="about__text">
+        There are no more waiting in line to get appointment and then again wating to get medications and so on. And
+        besides all of that we’ve enabled online consultation which make life a lot easier because from now on you don’t
+        have to go to the hospital for everything. </p>
+      <button class="btn btn--outline">Download App</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">set appointment</a></li>
+          <li><a href="#">order medications</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">Medico &copy; All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
